@@ -28,3 +28,9 @@ plot(pressure)
 ```
 
 Isaac, I changed your code on Dec 1, 2017.
+
+I have nothing interesting or fun to add to this emerging document.
+```{r}
+plot(mpg)
+```
+
