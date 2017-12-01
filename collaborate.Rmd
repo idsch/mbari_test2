@@ -34,3 +34,23 @@ I have nothing interesting or fun to add to this emerging document.
 plot(pressure)
 ```
 
+What! Not interesting, another plot of pressure is great. Now, lets look at it again!
+```{r}
+plot(pressure*2)
+```
+
+
+## NYC Flight exploration
+
+```{r}
+library(tidyverse)
+library(nycflights13) #install.packages("nycflights13"), Person 2 please install this
+
+flights
+
+## Jan 1 data
+flights %>% 
+  filter(month==1,
+         day==1)
+```
+
